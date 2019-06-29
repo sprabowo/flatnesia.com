@@ -1,0 +1,38 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * interface:
+ *   - http://typekit.com/eulas/00000000000000003b9ae112
+ *   - http://typekit.com/eulas/00000000000000003b9ae115
+ * utopia-std-headline:
+ *   - http://typekit.com/eulas/000000000000000000013049
+ *
+ * © 2009-2019 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2019-04-26 06:01:19 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=tsc3wjq&ht=tk&f=9739.9741.18219&a=2133093&app=typekit&e=css");
+
+@font-face {
+font-family:"interface";
+src:url("https://use.typekit.net/af/2837a6/00000000000000003b9ae112/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/2837a6/00000000000000003b9ae112/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/2837a6/00000000000000003b9ae112/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"interface";
+src:url("https://use.typekit.net/af/8882b8/00000000000000003b9ae115/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/8882b8/00000000000000003b9ae115/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/8882b8/00000000000000003b9ae115/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"utopia-std-headline";
+src:url("https://use.typekit.net/af/a55e3d/000000000000000000013049/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/a55e3d/000000000000000000013049/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/a55e3d/000000000000000000013049/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+.tk-interface { font-family: "interface",sans-serif; }
+.tk-utopia-std-headline { font-family: "utopia-std-headline",serif; }

@@ -1,0 +1,17 @@
+{
+  "name": "project-flatnesia",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.6.0",
+    "register-service-worker": "^1.6.2",
+    "workbox-build": "^4.3.1"
+  },
+  "devDependencies": {
+    "gridsome-plugin-purgecss": "^1.0.12"
+  }
+}
