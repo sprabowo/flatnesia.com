@@ -5,7 +5,7 @@
             <div class="col-12 text-center text-clouds"> <g-image src="~/assets/img/logo.svg" alt="Logo Flatnesia" class="logo" />
                 <h1>Free Indonesian Flat Vectors</h1>
                 <p class="lead"><span>Free for everyone. </span> <span>Free for everything.</span>
-                    <br><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i></a></p>
+                    <br><a aria-label="contact me on socmed" rel="license" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i></a></p>
                 <p><a href="#main" class="btn btn-o"><i class="fal fa-grin-hearts"></i> See the goodies</a> <a href="#download" class="btn"><i class="fal fa-download"></i> Go to download</a></p>
             </div>
         </div>
@@ -95,12 +95,12 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-6">
-                        <h2>It’s all free!</h2> <a href="https://rifat.id/flatnesia" class="btn btn-turquoise"><i class="fal fa-file-archive"></i> Download Everything <span>(ZIP 254 KB)</span></a>
+                        <h2>It’s all free!</h2> <a aria-label="contact me on socmed" rel="noreferrer" href="https://rifat.id/flatnesia" class="btn btn-turquoise"><i class="fal fa-file-archive"></i> Download Everything <span>(ZIP 254 KB)</span></a>
                         <p><small>PS: I don’t provide any instructions, tutorials, or whatsoever regarding on how to use the goodies.</small></p>
-                        <p class="mt-4"> <a href="https://wa.me/?text=https://flatnesia.com by Rifat Najmi" class="btn-social btn-whatsapp m-2" target="_blank"><i class="fab fa-whatsapp fa-fw"></i> Share on WhatsApp</a> <a href="https://telegram.me/share/url?url=https://flatnesia.com&text=Flatnesia by @RifatNajmi" class="btn-social btn-telegram m-2" target="_blank"><i class="fab fa-telegram-plane fa-fw"></i> Share on Telegram</a> <a href="https://twitter.com/share?url=https://flatnesia.com&text=Flatnesia by @RifatNajmi" class="btn-social btn-twitter m-2" target="_blank"><i class="fab fa-twitter fa-fw"></i> Share on Twitter</a> <a href="https://www.facebook.com/sharer.php?u=https://flatnesia.com" class="btn-social btn-facebook m-2" target="_blank"><i class="fab fa-facebook-f fa-fw"></i> Share on Facebook</a> </p>
+                        <p class="mt-4"> <a aria-label="contact me on socmed" rel="noreferrer" href="https://wa.me/?text=https://flatnesia.com by Rifat Najmi" class="btn-social btn-whatsapp m-2" target="_blank"><i class="fab fa-whatsapp fa-fw"></i> Share on WhatsApp</a> <a aria-label="contact me on socmed" rel="noreferrer" href="https://telegram.me/share/url?url=https://flatnesia.com&text=Flatnesia by @RifatNajmi" class="btn-social btn-telegram m-2" target="_blank"><i class="fab fa-telegram-plane fa-fw"></i> Share on Telegram</a> <a aria-label="contact me on socmed" rel="noreferrer" href="https://twitter.com/share?url=https://flatnesia.com&text=Flatnesia by @RifatNajmi" class="btn-social btn-twitter m-2" target="_blank"><i class="fab fa-twitter fa-fw"></i> Share on Twitter</a> <a aria-label="contact me on socmed" rel="noreferrer" href="https://www.facebook.com/sharer.php?u=https://flatnesia.com" class="btn-social btn-facebook m-2" target="_blank"><i class="fab fa-facebook-f fa-fw"></i> Share on Facebook</a> </p>
                         <hr>
-                        <h2>Any ideas of what to add next or wanna collab?</h2> <a href="https://rifatnajmi.com/contact/" class="btn btn-turquoise"><i class="fal fa-envelope"></i> Contact Me</a>
-                        <p class="mt-4"> <a href="https://rifat.id/instagram" target="_blank" class="btn-social btn-instagram m-2"><i class="fab fa-instagram"></i> Follow @RifatNajmi</a> <a href="https://rifatnajmi.com/" target="_blank" class="btn-social btn-rifatnajmi m-2"><i class="fal fa-globe"></i> Visit rifatnajmi.com</a> </p>
+                        <h2>Any ideas of what to add next or wanna collab?</h2> <a aria-label="contact me on socmed" rel="noreferrer" href="https://rifatnajmi.com/contact/" class="btn btn-turquoise"><i class="fal fa-envelope"></i> Contact Me</a>
+                        <p class="mt-4"> <a aria-label="contact me on socmed" rel="noreferrer" href="https://rifat.id/instagram" target="_blank" class="btn-social btn-instagram m-2"><i class="fab fa-instagram"></i> Follow @RifatNajmi</a> <a aria-label="contact me on socmed" rel="noreferrer" href="https://rifatnajmi.com/" target="_blank" class="btn-social btn-rifatnajmi m-2"><i class="fal fa-globe"></i> Visit rifatnajmi.com</a> </p>
                     </div>
                 </div>
             </div>

@@ -36,11 +36,12 @@ module.exports = {
     {
       use: '~/plugin/pwa',
       options: {
+        shortName: 'Flatnesia',
         manifestPath: 'manifest.json',
         runtimeCaching: [
           {
-            urlPattern: 'https://flatnesia-dev.netlify.com/(.*)',
-            handler: 'staleWhileRevalidate'   
+            urlPattern: 'https://flatnesia-dev.netlify.com',
+            handler: 'staleWhileRevalidate'
           },
           {
             urlPattern: 'https://pro.fontawesome.com/(.*)',
@@ -51,8 +52,18 @@ module.exports = {
                 maxAgeSeconds: 30 * 24 * 60 * 60
               }
             },
-            handler: 'cacheFirst',
-            method: 'GET'    
+            handler: 'cacheFirst'   
+          },
+          {
+            urlPattern: 'https://use.typekit.net/(.*)',
+            options: {
+              cacheName: 'typekit',
+              expiration: {
+                maxEntries: 10,
+                maxAgeSeconds: 30 * 24 * 60 * 60
+              }
+            },
+            handler: 'cacheFirst'   
           },
           {
             // You can use a RegExp as the pattern:
@@ -62,18 +73,16 @@ module.exports = {
           {
             // You can use a RegExp as the pattern:
             urlPattern: /\.(?:png|jpg|jpeg|svg)$/,
-            handler: 'CacheFirst',
+            handler: 'CacheFirst'
           },
           {
             // You can use a RegExp as the pattern:
             urlPattern: /\.(js|css)$/,
-            handler: 'staleWhileRevalidate',
-            method: 'GET'
+            handler: 'staleWhileRevalidate'
           },
           {
             urlPattern: '/index.html',
-            handler: 'staleWhileRevalidate',
-            method: 'GET'    
+            handler: 'staleWhileRevalidate'   
           }
         ]
       }

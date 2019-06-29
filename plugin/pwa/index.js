@@ -30,7 +30,7 @@ function PWAPlugin (api, options) {
       icons: parseIcon.favicons.map(set => ({
         src: set.src.substring(1),
         sizes: `${set.width}x${set.height}`,
-        type: set.src.split('.').slice(-1)[0]
+        type: 'image/' + set.src.split('.').slice(-1)[0]
       }))
     }, null, 2))
 

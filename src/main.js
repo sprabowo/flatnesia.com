@@ -3,7 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import '~/assets/css/bootstrap.min.css'
-import '~/assets/css/tsc3wjq.css'
+// import '~/assets/css/tsc3wjq.css'
 import '~/assets/css/css.min.css'
 
 export default function (Vue, { router, head, isClient }) {
@@ -24,6 +24,10 @@ export default function (Vue, { router, head, isClient }) {
     href: 'https://pro.fontawesome.com/releases/v5.8.1/css/light.css',
     integrity:"sha384-3SMOAKCN8LYSMjkWz1ChDg4pHSLtD+LuKXaZoHxE1oyDneLR6Ebjm3XHMHO9fWu3",
     crossorigin:"anonymous"
+  })
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://use.typekit.net/tsc3wjq.css'
   })
   head.link.push({
     rel: 'stylesheet',
